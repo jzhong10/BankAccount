@@ -12,11 +12,12 @@ public class BankTester {
 
       System.out.println();
 
-      a1.deposit(100.28);
+      System.out.println(a1.deposit(100.28));
       System.out.println(a1.getBalance());
-      a1.withdraw(100.01);
+      System.out.println(a1.withdraw(100.01));
       System.out.println(a1.getBalance());
-
+      System.out.println(a1.withdraw(100000));
+      System.out.println(a1.deposit(-101.2));
 
       System.out.println(a1.toString());
     }
